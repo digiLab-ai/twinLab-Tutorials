@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "twinLab-Demos"
+version = "0.0.0"
+description = "A demonstration of twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
+authors = ["Jasper Cantwell <jasper@digilab.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+twinlab = "^1.4"
+jupyter = "^1.0.0"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+pandas = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
