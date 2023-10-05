@@ -28,7 +28,7 @@ cp .env.example .env
 ```
 and fill out your `twinLab` login details in `.env`
 
-Run the notebook you would like to see, e.g[01-basic notebook](./01-basic.ipynb):
+Run the notebook you would like to see, e.g [01-basic notebook](./01-basic.ipynb):
 ```shell
 poetry run jupyter notebook 01-basic.ipynb
 ```
