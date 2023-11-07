@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
-twinlab = "^1.4"
+twinlab = "^1.5"
 jupyter = "^1.0.0"
 numpy = "^1.24.2"
 matplotlib = "^3.7.1"
