@@ -1,2 +1,5 @@
 # Poetry stuff
 poetry.lock
+
+# Environment
+.env
