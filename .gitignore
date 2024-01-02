@@ -1,5 +1,8 @@
-# Poetry stuff
+# Poetry
 poetry.lock
 
 # Environment
 .env
+
+# Notebooks
+.ipynb_checkpoints
