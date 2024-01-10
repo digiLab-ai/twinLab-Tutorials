@@ -6,8 +6,8 @@ authors = ["Jasper Cantwell <jasper@digilab.co.uk>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
-twinlab = "^1.5"
+python = ">=3.8,<3.12"
+twinlab = "^2.0.0"
 jupyter = "^1.0.0"
 numpy = "^1.24.2"
 matplotlib = "^3.7.1"
