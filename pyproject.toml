@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-twinlab = "^2.0.0"
+twinlab = { path = "../twinlab/client/python", develop = true}
 jupyter = "^1.0.0"
 numpy = "^1.24.2"
 matplotlib = "^3.7.1"
