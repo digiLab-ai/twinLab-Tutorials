@@ -7,11 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-twinlab = "^2.0.0"
 jupyter = "^1.0.0"
 numpy = "^1.24.2"
 matplotlib = "^3.7.1"
 pandas = "^1.5.3"
+# twinlab = {git = "https://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@github.com/digiLab-ai/twinLab.git", branch="mead-twin540-plotting", subdirectory="client/python"}
+twinlab = {path = "../twinLab/client/python"}
 
 [build-system]
 requires = ["poetry-core"]
