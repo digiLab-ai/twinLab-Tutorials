@@ -2,7 +2,7 @@
 name = "twinLab-Demos"
 version = "0.0.0"
 description = "A demonstration of twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
-authors = ["Jasper Cantwell <jasper@digilab.co.uk>"]
+authors = ["Jasper Cantwell <jasper@digilab.co.uk>","Sergio Chavez <sergio@digilab.co.uk>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -11,8 +11,9 @@ jupyter = "^1.0.0"
 numpy = "^1.24.2"
 matplotlib = "^3.7.1"
 pandas = "^1.5.3"
-# twinlab = {git = "https://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@github.com/digiLab-ai/twinLab.git", branch="mead-twin540-plotting", subdirectory="client/python"}
-twinlab = {path = "../twinLab/client/python", develop = true}
+twinlab = "^2.0.0"
+# twinlab = {git = "https://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@github.com/digiLab-ai/twinLab.git", branch="mead-twin540-plotting", subdirectory="client/python"} #In case you want to install from a specific branch
+# twinlab = {path = "../twinLab/client/python", develop = true} #In case you want to install from a local path
 
 [build-system]
 requires = ["poetry-core"]
