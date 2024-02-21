@@ -12,7 +12,7 @@ numpy = "^1.24.2"
 matplotlib = "^3.7.1"
 pandas = "^1.5.3"
 # twinlab = {git = "https://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@github.com/digiLab-ai/twinLab.git", branch="mead-twin540-plotting", subdirectory="client/python"}
-twinlab = {path = "../twinLab/client/python"}
+twinlab = {path = "../twinLab/client/python", develop = true}
 
 [build-system]
 requires = ["poetry-core"]
