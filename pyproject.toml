@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "twinLab-Demos"
 version = "0.1.0"
-description = "A demonstration of twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
+description = "A demonstration of twinLab a toolchain that makes it simple to build machine learning models with uncertainty quantification."
 authors = ["Jasper Cantwell <jasper@digilab.co.uk>"]
 readme = "README.md"
 
