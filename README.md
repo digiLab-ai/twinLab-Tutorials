@@ -1,4 +1,4 @@
-# twinLab demos
+# twinLab Demos
 
 <p align="center">
     <!-- <img src="./resources/images/logo.svg" width="200" height="200" /> -->
