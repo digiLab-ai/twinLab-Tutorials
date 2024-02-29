@@ -17,6 +17,7 @@ _Mark the following items as complete when applicable:_
 - [ ] 🆕 Up to date with target branch
 - [ ] 🉑 Jira acceptance criteria met
 - [ ] 📚 Documentation updated
+- [ ] 🧪 twinLab version requirement updated in `pyproject.toml`
 
 ## 📣 Additional changes\*
 
