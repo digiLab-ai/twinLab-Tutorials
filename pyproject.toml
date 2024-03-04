@@ -11,9 +11,8 @@ jupyter = "^1.0.0"
 numpy = "^1.24.2"
 matplotlib = "^3.7.1"
 pandas = "^1.5.3"
-twinlab = "^2.0.0"
-# twinlab = {git = "https://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@github.com/digiLab-ai/twinLab.git", branch="mead-twin540-plotting", subdirectory="client/python"} #In case you want to install from a specific branch
-# twinlab = {path = "../twinLab/client/python", develop = true} #In case you want to install from a local path
+# twinlab = {git = "https://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@github.com/digiLab-ai/twinLab.git", branch="mead-twin540-plotting", subdirectory="client/python"} #In case you want to install from a specific branch
+twinlab = {path = "../twinLab/client/python", develop = true} #In case you want to install from a local path
 
 [build-system]
 requires = ["poetry-core"]
