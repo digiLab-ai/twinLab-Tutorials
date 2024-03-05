@@ -2,7 +2,15 @@
 name = "twinLab-Demos"
 version = "0.1.0"
 description = "A demonstration of twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
-authors = ["Jasper Cantwell <jasper@digilab.co.uk>","Sergio Chavez <sergio@digilab.co.uk>"]
+authors = ["digiLab Solutions Ltd. <info@digilab.co.uk>"]
+maintainers = [
+    "Jasper Cantwell <jasper@digilab.co.uk>",
+    "Sergio Chavez <sergio@digilab.co.uk>",
+    "Alexander Mead <alexander@digilab.co.uk>",
+    "Michelle Fabienne Bieger <michelle@digilab.co.uk>",
+    "Sai-Aakash Ramesh <sai-aakash@digilab.co.uk>",
+    "Micol Giannelli <micol@digilab.co.uk>",
+]
 readme = "README.md"
 
 [tool.poetry.dependencies]
