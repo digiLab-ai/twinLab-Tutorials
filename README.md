@@ -1,4 +1,4 @@
-# twinLab-Demos
+# twinLab Demos
 
 <p align="center">
     <!-- <img src="./resources/images/logo.svg" width="200" height="200" /> -->
@@ -19,7 +19,7 @@ cd twinLab-Demos
 
 Install the dependencies:
 ```shell
-poetry install
+poetry install --no-root
 ```
 
 Copy the `.env.example` file to `.env` 
@@ -28,7 +28,7 @@ cp .env.example .env
 ```
 and fill out your `twinLab` login details in `.env`
 
-Run the notebook you would like to see, e.g [01-basic notebook](./01-basic.ipynb):
+Run the notebook you would like to see, e.g [01-introduction](./01-introduction.ipynb):
 ```shell
-poetry run jupyter notebook 01-basic.ipynb
+poetry run jupyter notebook 01-introduction.ipynb
 ```
