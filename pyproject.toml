@@ -2,7 +2,15 @@
 name = "twinLab-Demos"
 version = "0.1.0"
 description = "A demonstration of twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
-authors = ["Jasper Cantwell <jasper@digilab.co.uk>"]
+authors = ["digiLab Solutions Ltd. <info@digilab.co.uk>"]
+maintainers = [
+    "Jasper Cantwell <jasper@digilab.co.uk>",
+    "Sergio Chavez <sergio@digilab.co.uk>",
+    "Alexander Mead <alexander@digilab.co.uk>",
+    "Michelle Fabienne Bieger <michelle@digilab.co.uk>",
+    "Sai-Aakash Ramesh <sai-aakash@digilab.co.uk>",
+    "Micol Giannelli <micol@digilab.co.uk>",
+]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -11,7 +19,10 @@ jupyter = "^1.0.0"
 matplotlib = "^3.7.1"
 numpy = "^1.24.2"
 pandas = "<2.0.0"
-twinlab = "^2.2.0"
+plotly = "^5.19.0"
+twinlab = "^2.3.0"
+# twinlab = { path = "../twinLab/client/python", develop = true }
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
