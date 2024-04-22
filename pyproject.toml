@@ -2,7 +2,7 @@
 name = "twinLab-Demos"
 version = "0.1.0"
 package-mode = false
-description = "A demonstration of twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
+description = "Tutorials for twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
 authors = ["digiLab Solutions Ltd. <info@digilab.co.uk>"]
 maintainers = [
     "Jasper Cantwell <jasper@digilab.co.uk>",
@@ -11,6 +11,7 @@ maintainers = [
     "Michelle Fabienne Bieger <michelle@digilab.co.uk>",
     "Sai-Aakash Ramesh <sai-aakash@digilab.co.uk>",
     "Micol Giannelli <micol@digilab.co.uk>",
+    "Will Denby <will@digilab.co.uk>",
 ]
 readme = "README.md"
 
