@@ -38,4 +38,4 @@ jobs:
         run: pip install black==24.2
 
       - name: Quality Assurance
-        run: black --check
+        run: black . --check
