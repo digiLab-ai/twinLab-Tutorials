@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "format": "prettier README.md */README.md --check --prose-wrap never"
+    "format": "prettier README.md --check --prose-wrap never"
   }
 }
