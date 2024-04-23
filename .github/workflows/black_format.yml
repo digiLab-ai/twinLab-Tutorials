@@ -1,0 +1,41 @@
+name: Black Formatting
+
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  ubuntu-tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ["ubuntu-latest"]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+      fail-fast: false
+
+    steps:
+      - name: actions/checkout@v2
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
+
+      - name: Update pip
+        run: |
+          python -m ensurepip
+          pip install --upgrade pip
+
+      - name: Install Tools
+        run: pip install black==24.2
+
+      - name: Quality Assurance
+        run: black client/python --check --extend-exclude '\.ipynb'
