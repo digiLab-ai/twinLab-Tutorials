@@ -1,4 +1,4 @@
-# twinLab Demos
+# twinLab Tutorials
 
 <p align="center">
     <!-- <img src="./resources/images/logo.svg" width="200" height="200" /> -->
@@ -13,8 +13,8 @@
 
 Clone the repository and change directory to the project root:
 ```shell
-git clone https://github.com/digiLab-ai/twinLab-Demos.git
-cd twinLab-Demos
+git clone https://github.com/digiLab-ai/twinLab-Tutorials.git
+cd twinLab-Tutorials
 ```
 
 Install the dependencies:

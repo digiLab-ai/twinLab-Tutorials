@@ -1,7 +1,8 @@
 [tool.poetry]
 name = "twinLab-Demos"
 version = "0.1.0"
-description = "A demonstration of twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
+package-mode = false
+description = "Tutorials for twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
 authors = ["digiLab Solutions Ltd. <info@digilab.co.uk>"]
 maintainers = [
     "Jasper Cantwell <jasper@digilab.co.uk>",
@@ -10,6 +11,7 @@ maintainers = [
     "Michelle Fabienne Bieger <michelle@digilab.co.uk>",
     "Sai-Aakash Ramesh <sai-aakash@digilab.co.uk>",
     "Micol Giannelli <micol@digilab.co.uk>",
+    "Will Denby <will@digilab.co.uk>",
 ]
 readme = "README.md"
 
@@ -17,10 +19,16 @@ readme = "README.md"
 python = ">=3.8,<3.12"
 jupyter = "^1.0.0"
 matplotlib = "^3.7.1"
-numpy = "^1.24.2"
-pandas = "<2.0.0"
+numpy = [
+    { version = "^1.24", python = ">=3.8,<3.9" },
+    { version = "^1.26", python = ">=3.9,<3.13" },
+]
+pandas = [
+    { version = "^1.5.3", python = ">=3.8,<3.9" },
+    { version = "^2.0", python = ">=3.9,<3.13" },
+]
 plotly = "^5.19.0"
-twinlab = "^2.3.0"
+twinlab = "^2.5.0"
 # twinlab = { path = "../twinLab/client/python", develop = true }
 
 [build-system]
