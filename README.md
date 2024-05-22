@@ -46,4 +46,4 @@ Finally, run the notebook you would like to see, e.g. [Quickstart](./notebooks/Q
 poetry run jupyter notebook notebooks/Quickstart.ipynb
 ```
 
-You can find additional resources to run the notebooks in the [resources](./resources/) folder, and note that through our [documentation](https://twinlab.ai/) you can find additional example datasets as you get acquainted with using twinLab.
+You can find additional resources to run the notebooks in the [resources](./resources/datasets) folder, and note that through our [documentation](https://twinlab.ai/) you can find additional example datasets as you get acquainted with using twinLab.
