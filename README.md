@@ -40,8 +40,10 @@ cp .env.example .env
 
 Ensure that you fill out your `twinLab` login details in `.env`.
 
-Finally, run the notebook you would like to see, e.g. [01-introduction](./01-introduction.ipynb):
+Finally, run the notebook you would like to see, e.g. [Quickstart](./notebooks/Quickstart.ipynb):
 
 ```shell
-poetry run jupyter notebook 01-introduction.ipynb
+poetry run jupyter notebook notebooks/Quickstart.ipynb
 ```
+
+You can find additional resources to run the notebooks in the [resources](./resources/) folder, and note that through our [documentation](https://twinlab.ai/) you can find additional example datasets as you get acquainted with using twinLab.
