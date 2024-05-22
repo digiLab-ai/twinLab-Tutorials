@@ -30,6 +30,7 @@ pandas = [
 plotly = "^5.19.0"
 twinlab = "^2.5.0"
 # twinlab = { path = "../twinLab/client/python", develop = true }
+nbdime = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core"]
