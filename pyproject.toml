@@ -28,8 +28,8 @@ pandas = [
     { version = "^2.0", python = ">=3.9,<3.13" },
 ]
 plotly = "^5.19.0"
-twinlab = "^2.5.0"
-# twinlab = { path = "../twinLab/client/python", develop = true }
+# twinlab = "^2.5.0"
+twinlab = { path = "../twinLab/client/python", develop = true } # Use this version if you are making changes in the interface
 nbdime = "^4.0.1"
 
 [build-system]
