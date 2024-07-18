@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "twinLab-Demos"
-version = "0.1.0"
+name = "twinLab-Tutorials"
+version = "1.0.0"
 package-mode = false
 description = "Tutorials for twinLab, a toolchain that makes it simple to build machine learning models with uncertainty quantification."
 authors = ["digiLab Solutions Ltd. <info@digilab.co.uk>"]
@@ -28,13 +28,14 @@ pandas = [
     { version = "^2.0", python = ">=3.9,<3.13" },
 ]
 plotly = "^5.19.0"
-twinlab = "^2.5.0"
-# twinlab = { path = "../twinLab/client/python", develop = true }
+twinlab = "^2.10.0"
+# twinlab = { path = "../client/python", develop = true }
 nbdime = "^4.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+isort = "^5.9.3"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.group.dev.dependencies]
-black = "^24.4.2"

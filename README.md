@@ -11,11 +11,11 @@
 
 Welcome to the twinLab-Tutorials repository, brought to you by the twinLab Product Team at digiLab Solutions Ltd. This repository contains Jupyter Notebooks that can serve as a starting point for using twinLab, a tool to augment engineering workflows with probabilistic machine learning.
 
-If you would like to access a trial of twinLab to harness the power of built-in uncertainty quantification and build real-time emulators of your simulations, please [sign up for a trial here](https://www.digilab.co.uk/contact).
+If you would like to access a trial of twinLab to harness the power of built-in uncertainty quantification and build real-time emulators of your simulations, [sign up for a trial here](https://www.digilab.co.uk/contact).
 
-twinLab can be accessed through [PyPI](https://pypi.org/project/twinlab/), or through [GitHub](https://github.com/digiLab-ai/twinLab-Interface). Please feel free to log an issue on our public GitHub if you have a feature request or a bug report, or contact the Product Team at twinlab@digilab.co.uk. Documentation and guidance on how to use twinLab can be found via our [documentation](https://twinlab.ai/).
+twinLab can be accessed through [PyPI](https://pypi.org/project/twinlab/), or through [GitHub](https://github.com/digiLab-ai/twinLab-Interface). Feel free to log an issue on our public GitHub if you have a feature request or a bug report, or contact the Product Team at twinlab@digilab.co.uk. Documentation and guidance on how to use twinLab can be found via our [documentation](https://twinlab.ai/).
 
-Similarly, if you spot an error in our tutorials, please feel free to log an issue in this GitHub repository, or contact the Product Team.
+Similarly, if you spot an error in our tutorials, log an issue in this GitHub repository, or contact the Product Team.
 
 ## Quick Start
 
