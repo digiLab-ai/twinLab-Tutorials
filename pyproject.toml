@@ -19,7 +19,8 @@ pandas = [
     { version = "^2.0", python = ">=3.9,<3.13" },
 ]
 plotly = "^5.19.0"
-twinlab = "^2.11.0"
+twinlab = "^2.10.0"
+# twinlab = { path = "../client/python", develop = true }
 nbdime = "^4.0.1"
 
 [tool.poetry.group.dev.dependencies]
